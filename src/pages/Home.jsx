@@ -116,52 +116,6 @@ function Home() {
 					</div>
 				</div>
 				{/* contact */}
-				<div className="container mx-auto px-0 md:px-4 py-10 md:mt-60 text-black gradient-gray dark:text-white">
-					<div className="text-4xl font-bold text-center mx-10 pb-10">
-						<h1>Contact me</h1>
-					</div>
-					<div className="container relative mx-auto px-4 bg-slate-300 pt-20 pb-32 dark:bg-gray-800 rounded-md shadow-xl">
-						<div className="icon pb-10">
-							<i className="fa-regular fa-address-book fa-6x text-blue-600 dark:text-white"></i>
-						</div>
-						<div className="desc py-4">
-							<p className="text-center text-xl text-black dark:text-white">
-								Feel free to contact me! You can contact me via
-								email or other social media listed below.
-							</p>
-						</div>
-						{/* email */}
-						<Button
-							icon="fa-solid fa-envelope"
-							link="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello">
-							Email
-						</Button>
-						{/* github */}
-						<Button
-							icon="fa-brands fa-github"
-							link="https://github.com/Alvalens">
-							Github
-						</Button>
-						{/* linkedin */}
-						<Button
-							icon="fa-brands fa-linkedin"
-							link="https://www.linkedin.com/in/alvalen-shafel-8a081a254/">
-							Linkedin
-						</Button>
-						{/* instagram */}
-						<Button
-							icon="fa-brands fa-instagram"
-							link="https://instagram.com/alvalens_">
-							Instagram
-						</Button>
-						{/* discord */}
-						<Button
-							icon="fa-brands fa-discord"
-							link="https://discordapp.com/users/bloody#6118">
-							Discord
-						</Button>
-					</div>
-				</div>
 				{/* quote */}
 				<div className="container mx-auto px-2 md:px-4 py-10 my-10">
 					<div
